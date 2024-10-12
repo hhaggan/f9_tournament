@@ -4,8 +4,8 @@ import { BrandFooter } from '../navbar/_brand';
 import classes from './footer.module.css';
 
 const links = [
-  { link: 'https://docs.bracketapp.nl', label: 'Website' },
-  { link: 'https://github.com/evroon/bracket', label: 'GitHub' },
+  { link: 'https://forte9.store/', label: 'Website' },
+  { link: '', label: 'GitHub' },
 ];
 
 export function DashboardFooter() {
