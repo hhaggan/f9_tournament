@@ -15,8 +15,8 @@ WORKDIR /app
 COPY . .
 COPY --from=deps /app/node_modules ./node_modules
 
-RUN NEXT_PUBLIC_API_BASE_URL=http://NEXT_PUBLIC_API_BASE_URL_PLACEHOLDER \
-    NEXT_PUBLIC_HCAPTCHA_SITE_KEY=NEXT_PUBLIC_HCAPTCHA_SITE_KEY_PLACEHOLDER \
+RUN NEXT_PUBLIC_API_BASE_URL=http://localhost:8400 \
+    NEXT_PUBLIC_HCAPTCHA_SITE_KEY=10000000-ffff-ffff-ffff-000000000001 \
     yarn build
 
 # Production image, copy all the files and run next
@@ -30,14 +30,15 @@ COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json
-COPY --from=builder /app/docker-entrypoint.sh ./entrypoint.sh
+COPY --from=builder /app/docker-entrypoint.sh /app/entrypoint.sh
 COPY --from=builder /app/next.config.js ./next.config.js
 COPY --from=builder /app/next-i18next.config.js ./next-i18next.config.js
 
 RUN addgroup -g 1001 --system nodejs && \
     adduser --system nextjs -u 1001 -G nodejs && \
     chown -R nextjs:nodejs /app/.next && \
-    chmod +x /app/entrypoint.sh
+    chown -R nextjs:nodejs /app/public && \
+    chmod +x /app/entrypoint.sh 
 
 RUN apk add bash
 

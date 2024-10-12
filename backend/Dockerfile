@@ -8,9 +8,9 @@ COPY . /app
 WORKDIR /app
 
 # -- Install dependencies:
-RUN addgroup --system bracket && adduser --system bracket --ingroup bracket \
-    && chown -R bracket:bracket /app
-USER bracket
+RUN addgroup --system forte9 && adduser --system forte9 --ingroup forte9 \
+    && chown -R forte9:forte9 /app
+USER forte9
 
 RUN set -ex \
     && pip3 install --upgrade pip pipenv wheel virtualenv \

@@ -6,7 +6,6 @@ if [ -z ${NEXT_PUBLIC_API_BASE_URL+x} ];
   exit 1;
 fi
 
-
 # Replace the statically built placeholder literals from Dockerfile with run-time
 # the value of the `NEXT_PUBLIC_WEBAPP_URL` environment variable
 replace_placeholder() {
