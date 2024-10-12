@@ -61,7 +61,7 @@ export default function Login() {
       <Title ta="center" mt={100}>
         {t('welcome_title')}{' '}
         <Text inherit variant="gradient" component="span">
-          Bracket
+          Forte9
         </Text>
       </Title>
       <Container size={480} my={40}>

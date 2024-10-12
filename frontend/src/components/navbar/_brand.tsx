@@ -8,7 +8,7 @@ export function Brand() {
       <UnstyledButton component={Link} href="/">
         <Group>
           <Image style={{ width: '38px', marginRight: '0px' }} src="/favicon.svg" />
-          <Title style={{ height: '38px', marginBottom: '0.4rem' }}>Bracket</Title>
+          <Title style={{ height: '38px', marginBottom: '0.4rem' }}>Forte9</Title>
         </Group>
       </UnstyledButton>
     </Center>
@@ -21,7 +21,7 @@ export function BrandFooter() {
       <Center>
         <Image mb="0.25rem" style={{ width: '32px', marginRight: '0px' }} src="/favicon.svg" />
         <Text size="xl" ml="0.75rem">
-          Bracket
+          Forte9
         </Text>
       </Center>
     </Center>

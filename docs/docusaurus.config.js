@@ -6,13 +6,13 @@ const { themes } = require("prism-react-renderer");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Bracket",
+  title: "Forte9",
   tagline: "Free and open source tournament scheduling system",
   favicon: "img/logo.svg",
   url: "https://docs.bracketapp.nl",
   baseUrl: "/",
   organizationName: "evroon",
-  projectName: "bracket",
+  projectName: "forte9",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
@@ -61,9 +61,9 @@ const config = {
       // Replace with your project's social card
       image: "img/bracket-screenshot-design.png",
       navbar: {
-        title: "Bracket",
+        title: "Forte9",
         logo: {
-          alt: "Bracket Logo",
+          alt: "Forte9 Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -107,7 +107,7 @@ const config = {
             ],
           },
           {
-            title: "Running Bracket",
+            title: "Running Forte9",
             items: [
               {
                 label: "Configuration",
@@ -150,7 +150,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Bracket - Self-Hosted Tournament System.<br/> Licensed under AGPL-v3.0. Copyright © ${new Date().getFullYear()} Bracket. Built with Docusaurus.`,
+        copyright: `Forte9 - Self-Hosted Tournament System.<br/> Licensed under AGPL-v3.0. Copyright © ${new Date().getFullYear()} Forte9. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.oneLight,

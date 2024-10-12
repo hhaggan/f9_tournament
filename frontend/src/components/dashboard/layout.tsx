@@ -66,7 +66,7 @@ export function TournamentHeadTitle({ tournamentDataFull }: { tournamentDataFull
   return tournamentDataFull != null ? (
     <title>{tournamentDataFull.name}</title>
   ) : (
-    <title>Bracket</title>
+    <title>Forte9</title>
   );
 }
 

@@ -12,13 +12,13 @@ const cardData = [
   {
     title: "Open-source and free",
     description:
-      "Bracket is fully open source and free to use, licensed under the AGPL-3.0 license.",
+      "Forte9 is fully open source and free to use, licensed under the AGPL-3.0 license.",
     icon: IconBrandOpenSource,
   },
   {
     title: "Flexible",
     description:
-      "Bracket supports the standard tournament types, teams can be added/changed\n" +
+      "Forte9 supports the standard tournament types, teams can be added/changed\n" +
       "        during the tournament and new matches can be scheduled dynamically.",
     icon: IconTool,
   },
