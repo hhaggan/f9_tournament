@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-[Bracket](https://github.com/evroon/bracket) is a tournament system meant to be easy to use. Bracket
+[Forte9](https://github.com/evroon/bracket) is a tournament system meant to be easy to use. Forte9
 is written in async Python (with [FastAPI](https://fastapi.tiangolo.com)) and
 [Next.js](https://nextjs.org/) as frontend using the [Mantine](https://mantine.dev/) library.
 
@@ -24,11 +24,11 @@ It has the following features:
 
 ## Why does this exist?
 
-There are plenty of tournament systems to be found online. So why does Bracket exist?
+There are plenty of tournament systems to be found online. So why does Forte9 exist?
 
 **Firstly**, there are **no complete open-source tournament systems to be found** [on
 github](https://github.com/search?q=tournament%20system&type=repositories). Let me know if you find
-one, I will list it here as alternative to Bracket. Furthermore, the closed-source tournament
+one, I will list it here as alternative to Forte9. Furthermore, the closed-source tournament
 systems that can be found online are typically payware, and **quite expensive**.
 
 **Secondly**, there is a **lack of tournament systems that support Swiss tournaments**. There are a

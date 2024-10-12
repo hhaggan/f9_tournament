@@ -1,6 +1,6 @@
 # Nomad
 
-This section describes how to deploy Bracket (frontend and backend) to
+This section describes how to deploy Forte9 (frontend and backend) to
 [Nomad](https://www.nomadproject.io).
 
 First, make sure you have a running Nomad cluster. See the

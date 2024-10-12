@@ -12,7 +12,7 @@ cd bracket
 sudo docker compose up -d
 ```
 
-This will start the backend and frontend of Bracket, as well as a postgres instance. You should now
+This will start the backend and frontend of Forte9, as well as a postgres instance. You should now
 be able to view bracket at `http://localhost:3000`. You can log in with the following credentials:
 
 - Username: `test@example.org`

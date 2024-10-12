@@ -1,6 +1,6 @@
 # Docker
 
-This section describes how to deploy Bracket (frontend and backend) to docker using docker-compose.
+This section describes how to deploy Forte9 (frontend and backend) to docker using docker-compose.
 
 ## 1. Install Docker and docker compose
 
@@ -87,7 +87,7 @@ load them via [docker secrets](https://docs.docker.com/compose/use-secrets/).
 
 ## 4. Update volume bindings
 
-Bracket needs two volume bindings: for the backend and for the database.
+Forte9 needs two volume bindings: for the backend and for the database.
 
 Update the two volume binding paths to point to a directory where you want to store the
 persistent data.
@@ -95,4 +95,4 @@ persistent data.
 ## 5. Access the application
 
 Run it using `docker compose up -d` in the same directory as the file.
-Access Bracket at `http://localhost:3000`.
+Access Forte9 at `http://localhost:3000`.

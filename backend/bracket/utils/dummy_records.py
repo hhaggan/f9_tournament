@@ -91,7 +91,7 @@ DUMMY_STAGE_ITEM3 = StageItemInsertable(
     created=DUMMY_MOCK_TIME,
     type=StageType.SINGLE_ELIMINATION,
     team_count=4,
-    name="Bracket A",
+    name="Forte9 A",
 )
 
 DUMMY_ROUND1 = RoundInsertable(

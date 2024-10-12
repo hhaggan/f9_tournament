@@ -4,22 +4,22 @@ sidebar_position: 1
 
 # Contributing
 
-If you're using Bracket and would like to help support its development, that would be greatly
+If you're using Forte9 and would like to help support its development, that would be greatly
 appreciated!
 
 Several areas that we need a bit of help with at the moment are:
 
-- ⭐ **Star Bracket** on GitHub
-- 🌐 **Translating**: Help make Bracket available to non-native English speakers by adding your
+- ⭐ **Star Forte9** on GitHub
+- 🌐 **Translating**: Help make Forte9 available to non-native English speakers by adding your
   language. See [Translating](#translating) below.
-- 📣 **Spread the word** by sharing Bracket to help new users discover it
+- 📣 **Spread the word** by sharing Forte9 to help new users discover it
 - 🖥️ **Submit a PR** to add a new feature, fix a bug, extend/update the docs or something else
 
 ## Translating
 
 ### Adding translations (via crowdin)
 
-Bracket uses [crowdin](https://crowdin.com/project/bracket) for translations. You can add/improve
+Forte9 uses [crowdin](https://crowdin.com/project/bracket) for translations. You can add/improve
 translations here in your language.
 
 If you want to add a new language, please create an issue and I will add the language to Crowdin.

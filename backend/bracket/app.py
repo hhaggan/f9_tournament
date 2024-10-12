@@ -81,7 +81,7 @@ table_of_contents = "\n\n".join(
 
 description = f"""
 ### Description
-This API allows you to do everything the frontend of [Bracket](https://github.com/evroon/bracket)
+This API allows you to do everything the frontend of [Forte9](https://github.com/evroon/bracket)
 allows you to do (the frontend uses this API as well).
 
 Fore more information, see the [documentation](https://docs.bracketapp.nl).
@@ -104,11 +104,11 @@ API docs (Swagger UI): <https://api.bracketapp.nl/docs>
 """
 
 app = FastAPI(
-    title="Bracket API",
+    title="Forte9 API",
     docs_url="/docs",
     version="1.0.0",
     lifespan=lifespan,
-    summary="API for Bracket, an open source tournament system.",
+    summary="API for Forte9, an open source tournament system.",
     description=description,
     license_info={
         "name": "AGPL-3.0",

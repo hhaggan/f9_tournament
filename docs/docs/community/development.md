@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Developing
 
-This guide explains how to run Bracket without Docker. They cover database setup, configuration and
+This guide explains how to run Forte9 without Docker. They cover database setup, configuration and
 how to run the frontend and backend. If you quickly want to get up and running, please read
 [quickstart.md](../running-bracket/quickstart.md).
 
@@ -35,10 +35,10 @@ The database URL can be specified per environment in the `.env` files (see
 
 ## Running the frontend and backend
 
-To run Bracket (frontend and backend) locally without Docker, one needs `yarn` and `pipenv`.
+To run Forte9 (frontend and backend) locally without Docker, one needs `yarn` and `pipenv`.
 
 The following starts the frontend and backend for local development in the root
-directory of Bracket:
+directory of Forte9:
 
 ```shell
 ./run.sh
@@ -68,7 +68,7 @@ pipenv shell
 ./run.sh
 ```
 
-### Alternative: running Bracket via process-compose
+### Alternative: running Forte9 via process-compose
 
 Alternatively, you can use [process-compose](https://github.com/F1bonacc1/process-compose) to run
 the app locally. It works similarly to docker-compose, except it works with non-containerized

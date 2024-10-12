@@ -50,7 +50,7 @@ function CardGradient() {
           </Text>
         </Center>
         <Text size="sm" mt="sm" c="dimmed">
-          Go to the GitHub repository to star or fork Bracket, create issues/PRs
+          Go to the GitHub repository to star or fork Forte9, create issues/PRs
           or start discussions.
         </Text>
       </Paper>

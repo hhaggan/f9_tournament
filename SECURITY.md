@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-Only the latest version of Bracket will get security upgrades (for now at least).
+Only the latest version of Forte9 will get security upgrades (for now at least).
 
 ## Reporting a Vulnerability
 

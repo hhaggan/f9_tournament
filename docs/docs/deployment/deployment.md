@@ -4,7 +4,7 @@ sidebar_position: 0
 
 # Deployment
 
-The guides in this directory explain how to run Bracket in production. If you quickly want to get up
+The guides in this directory explain how to run Forte9 in production. If you quickly want to get up
 and running, please read [quickstart.md](../running-bracket/quickstart.md).
 
 ## Configuration
@@ -42,6 +42,6 @@ Optional:
 
 ## Running in production
 
-There's a few ways to run Bracket (frontend and backend) in production, such as via docker-compose
+There's a few ways to run Forte9 (frontend and backend) in production, such as via docker-compose
 and Nomad. The frontend can also be deployed to a cloud service like Vercel. See the other pages in
 this category for more details per platform.
