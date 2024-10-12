@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[916],{2832:t=>{t.exports=JSON.parse('{"title":"Running Forte9","slug":"/category/running-forte9","permalink":"/docs/category/running-forte9","navigation":{"previous":{"title":"Introduction","permalink":"/docs/intro"},"next":{"title":"Quickstart","permalink":"/docs/running-bracket/quickstart"}}}')}}]);
