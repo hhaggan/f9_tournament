@@ -165,6 +165,13 @@ See the [contribution docs](https://docs.bracketapp.nl/docs/community/contributi
 <table>
 <tr>
     <td align="center">
+        <a href="https://github.com/hhaggan">
+            <img src="https://avatars.githubusercontent.com/u/1840358?v=4" width="100;" alt="hhaggan"/>
+            <br />
+            <sub><b>Hhaggan</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/evroon">
             <img src="https://avatars.githubusercontent.com/u/11857441?v=4" width="100;" alt="evroon"/>
             <br />
@@ -174,6 +181,13 @@ See the [contribution docs](https://docs.bracketapp.nl/docs/community/contributi
     <td align="center">
         <a href="https://github.com/robigan">
             <img src="https://avatars.githubusercontent.com/u/35210888?v=4" width="100;" alt="robigan"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Yousri680">
+            <img src="https://avatars.githubusercontent.com/u/183424758?v=4" width="100;" alt="Yousri680"/>
             <br />
             <sub><b>Null</b></sub>
         </a>
@@ -191,7 +205,8 @@ See the [contribution docs](https://docs.bracketapp.nl/docs/community/contributi
             <br />
             <sub><b>Danny Piper</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Sevichecc">
             <img src="https://avatars.githubusercontent.com/u/91365763?v=4" width="100;" alt="Sevichecc"/>
